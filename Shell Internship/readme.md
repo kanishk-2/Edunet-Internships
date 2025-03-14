@@ -56,5 +56,10 @@ You can use the system to:
 * Integrate IoT-based real-time soil data collection.
 * Enhance accuracy using Deep Learning techniques.
 * Develop a user-friendly Web or Mobile App interface.
-  
+
+## Output sample
+<img width="1091" alt="1" src="https://github.com/user-attachments/assets/aa966a62-4236-4bd2-8e48-ce92944d5d6f" />
+
+
+   
 
