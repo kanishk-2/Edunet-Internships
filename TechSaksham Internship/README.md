@@ -1,46 +1,8 @@
-# Fitness Tracker using Machine Learning
+# Disease Prediction Using AI
 
 ## Overview
-The **Fitness Tracker using Machine Learning** is a web-based application designed to help users monitor their fitness levels by analyzing key health indicators. The system takes user inputs related to health and fitness, processes the data using machine learning algorithms, and provides insights on fitness levels.
 
-## Features
-- **User Input Interface:** A **Streamlit-based web application** for entering health parameters.
-- **Data Processing:** Preprocessing and feature engineering using **Pandas** and **NumPy**.
-- **Exploratory Data Analysis (EDA):** Visualizations using **Matplotlib** and **Seaborn**.
-- **Machine Learning Model:** Predicting fitness levels using **Scikit-Learn** classification models.
-- **Real-Time Predictions:** Instant feedback on fitness status based on user inputs.
-
-## Technologies Used
-- **Python**
-- **NumPy** – For numerical computations.
-- **Pandas** – For data manipulation and analysis.
-- **Matplotlib & Seaborn** – For data visualization.
-- **Scikit-Learn** – For machine learning model implementation.
-- **Streamlit** – For web-based deployment.
-
-## Installation
-To set up the project, follow these steps:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo/fitness-tracker.git
-   cd fitness-tracker
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-3. Run the application:
-   streamlit run app.py
-
-## Usage
-Launch the web application using Streamlit.
-Enter the required health-related inputs.
-Click on the Predict button to receive fitness level insights.
-View visualizations and analysis of your fitness trends.
-
-## Future Enhancements
-Integration with Wearable Devices for real-time data collection.
-Deep Learning Models to improve accuracy.
-Cloud Deployment for wider accessibility.
+Medical Diagnosis Using AI, leverages machine learning techniques to predict chronic diseases such as Diabetes, Heart Disease, and Parkinson’s. It utilizes structured medical datasets, applies data preprocessing and performs exploratory data analysis (EDA) to identify key health indicators. Machine learning models, including Support Vector Machine (SVM) and Logistic Regression, are trained to classify disease risk with high accuracy. The model achieves 91% accuracy for Parkinson’s, 88% for Heart Disease, and 85% for Diabetes. A Streamlit-based web application is developed for real-time user input, providing interactive visualizations and automated health risk assessments.The machine learning models, including classification algorithms from Scikit-Learn, analyze the input data to predict fitness categories. The project aims to encourage health awareness and personalized fitness tracking using data-driven insights.
 
 ## Contributing
 Feel free to contribute to the project by submitting issues or pull requests.
